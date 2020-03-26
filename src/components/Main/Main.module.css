@@ -1,0 +1,28 @@
+.main{
+  height: 100vh;
+  background-color: #ffb3e6;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container {
+  width: 80%;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.greeting{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+
+}
+.photo{
+  height: 400px;
+  width: 300px;
+  background-color: green;
+}

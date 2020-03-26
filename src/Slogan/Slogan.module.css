@@ -1,0 +1,13 @@
+.slogan{
+  height: 250px;
+  background-color: #ffcaab;
+  display: flex;
+  flex-wrap: wrap;
+}.c{
+  width: 80%;
+  margin: 5% 10%;
+  border: 1px solid;
+ }
+.b {
+  margin-top: 30px;
+}

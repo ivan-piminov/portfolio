@@ -1,0 +1,28 @@
+.skills {
+    height: 100vh;
+    background-color: #9bff95;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eachSkill {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 100%;
+}
+
+
+
+

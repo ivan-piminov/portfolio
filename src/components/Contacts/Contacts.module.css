@@ -1,0 +1,24 @@
+.contacts {
+    height: 100vh;
+    background-color: #ff5153;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form {
+    width: 80%;
+    border: 1px solid;
+    height: 450px;
+}
+
+.a {
+   max-width: 700px;
+    height: 300px;
+}
+
+.b {
+    margin: 15px;
+}
