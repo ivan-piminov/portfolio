@@ -1,17 +1,46 @@
-.project{
-  border: 1px solid;
-  width: 450px;
-}
-.forButtonArea{
-  height: 300px;
-  background-color: green;
+@media (min-width: 768px) {
+  .project {
+    border: 1px solid;
+    width: 450px;
+  }
+
+  .forButtonArea {
+    height: 300px;
+    background-color: green;
+  }
+
+  .forButtonArea button {
+    margin-top: 25%;
+    width: 200px;
+    height: 50px;
+  }
+
+  .description {
+    margin-top: 200px;
+  }
 }
 
-.forButtonArea button {
-  margin-top: 25%;
-  width: 200px;
-  height: 50px;
-}
-.description{
-  margin-top: 200px;
+@media (min-width: 360px) and (max-width: 767px){
+  .project {
+    border: 1px solid;
+    width: 350px;
+  }
+
+  .forButtonArea {
+    height: 300px;
+    background-color: green;
+  }
+
+  .forButtonArea button {
+    margin-top: 25%;
+    width: 200px;
+    height: 50px;
+  }
+
+  .description {
+    margin-top: 200px;
+  }
+
+
+
 }
