@@ -3,15 +3,15 @@ import styles from './Project.module.css'
 
 function Project() {
     return (
-        <div className={styles.a}>
-            <div className={styles.prod}>
+        <div className={styles.project}>
+            <div className={styles.forButtonArea}>
                 <button> смотреть </button>
             </div>
             <div>
                 <span>Название текста</span>
             </div>
             <div>
-                <p className={styles.c}>описание </p>
+                <p className={styles.description}>описание </p>
             </div>
         </div>
     );

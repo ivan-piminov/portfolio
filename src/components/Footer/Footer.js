@@ -5,19 +5,19 @@ function Footer() {
   return (
     <div className={styles.footer}>
 
-      <div className={styles.name}>
+      <div>
         <span>Иван Иванов</span>
       </div>
 
       <div className={styles.social}>
-          <div className={styles.a}>VK</div>
-          <div className={styles.a}>INST</div>
-          <div className={styles.a}>FB</div>
-          <div className={styles.a}>WHT</div>
+          <div className={styles.contact}>VK</div>
+          <div className={styles.contact}>INST</div>
+          <div className={styles.contact}>FB</div>
+          <div className={styles.contact}>WHT</div>
       </div>
 
         <div>
-            <spa> 2020 г. Все права защищены.</spa>
+            <span> 2020 г. Все права защищены.</span>
         </div>
     </div>
   );

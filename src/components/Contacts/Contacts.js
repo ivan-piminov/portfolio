@@ -5,21 +5,17 @@ function Contacts() {
     return (
         <div className={styles.contacts}>
 
-
-            <div className={styles.contact}>
                 <h3> Контакты</h3>
-            </div>
-
 
             <div className={styles.form}>
                 <form>
-                    <div className={styles.b}>
+                    <div className={styles.forInputs}>
                         <input/>
                     </div>
-                    <div className={styles.b}>
+                    <div className={styles.forInputs}>
                         <input/>
                     </div>
-                    <textarea className={styles.a}> оставьте свое сообщение</textarea>
+                    <textarea className={styles.forTextarea}> оставьте свое сообщение</textarea>
                 </form>
             </div>
             <div>

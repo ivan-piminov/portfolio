@@ -4,13 +4,16 @@
     background-color: #1ad5ff;
     margin-top: 20%;
 }
-.skill1 {
+.eachSkill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid;
     width: 300px;
 }
 
-.n {
-    margin-top: 210px;
+.descriptionOfSkill {
+    margin-top: 350px;
 }
 
 

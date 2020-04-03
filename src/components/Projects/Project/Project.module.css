@@ -1,16 +1,17 @@
-.prod{
+.project{
+  border: 1px solid;
   width: 450px;
+}
+.forButtonArea{
   height: 300px;
   background-color: green;
 }
-.a{
-  border: 1px solid;
-}
-.prod button {
-  margin-top: 30%;
+
+.forButtonArea button {
+  margin-top: 25%;
   width: 200px;
   height: 50px;
 }
-.c{
-  margin-top: 150px;
+.description{
+  margin-top: 200px;
 }
