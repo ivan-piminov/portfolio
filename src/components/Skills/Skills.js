@@ -9,7 +9,7 @@ function Skills() {
 
                 <h3> Мои скиллы</h3>
 
-                <div className={styles.allSkill}>
+                <div className={styles.allSkills}>
                     <Skill/>
                     <Skill/>
                     <Skill/>

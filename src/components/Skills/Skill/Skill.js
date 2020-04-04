@@ -3,7 +3,7 @@ import styles from './Skill.module.css'
 
 function Skill() {
     return (
-        <div className={styles.eachSkill}>
+        <div className={styles.Skill}>
             <div>
                 <img className={styles.photo}/>
             </div>
