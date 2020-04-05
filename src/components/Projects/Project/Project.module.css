@@ -23,7 +23,7 @@
 @media (min-width: 360px) and (max-width: 767px){
   .project {
     border: 1px solid;
-    width: 350px;
+    width: 100%;
   }
 
   .forButtonArea {

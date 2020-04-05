@@ -42,10 +42,8 @@
     border: 1px solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    /*margin-top: 8%;*/
-    /*margin-bottom: 8%;*/
   }
 
   .greeting {
@@ -55,7 +53,7 @@
 
   .photo {
     height: 400px;
-    width: 300px;
+    width: 80%;
     background-color: green;
   }
 
