@@ -5,14 +5,28 @@
     margin-top: 20%;
 }
 .Skill {
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
     border: 1px solid;
-    width: 100%;
+    width: 300px;
 }
 
 .descriptionOfSkill {
   margin-top: 100px;
 }
+
+@media screen and (max-width: 767px) {
+    .Skill {
+        height: 500px;
+        border: 1px solid;
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+
 
 
 

@@ -1,5 +1,4 @@
-@media (min-width: 768px) {
-  .header {
+.header {
     height: 60px;
     background-color: #1ad5ff;
     display: flex;
@@ -19,30 +18,10 @@
     justify-content: space-between;
   }
 
-
-}
-
-
-@media (min-width: 360px) and (max-width: 767px) {
-  .header {
-    height: 60px;
-    background-color: #1ad5ff;
-    display: flex;
-    justify-content: center;
-  }
-
-  .container {
-    width: 80%;
-    border: 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+@media screen and (max-width: 767px) {
   .nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
-
   }
 }

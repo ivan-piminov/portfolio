@@ -1,48 +1,31 @@
-@media (min-width: 768px) {
-  .projects {
-    height: 100vh;
+.projects {
+    min-height: 100vh;
     background-color: #ffc3f5;
     display: flex;
     justify-content: center;
-  }
-
-  .container {
-    width: 80%;
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .allProjects {
-    border: 1px solid;
-    display: flex;
-    justify-content: space-between;
-  }
 }
 
-@media (min-width: 360px) and (max-width: 767px){
-  .projects {
-    height: fit-content;
-    background-color: #ffc3f5;
-    display: flex;
-    justify-content: center;
-  }
-
-  .container {
+.container {
     width: 80%;
     border: 1px solid;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
+    justify-content: space-between;
+}
 
-  .allProjects {
+.allProjects {
     border: 1px solid;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+}
 
-  }
 
+@media screen and (max-width: 767px) {
+
+    .allProjects {
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

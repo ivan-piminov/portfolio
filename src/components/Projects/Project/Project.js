@@ -11,7 +11,7 @@ function Project() {
                 <span>Название текста</span>
             </div>
             <div>
-                <p className={styles.description}>описание </p>
+                <p >описание </p>
             </div>
         </div>
     );

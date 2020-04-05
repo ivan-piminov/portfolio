@@ -19,7 +19,7 @@ function Contacts() {
                 </form>
             </div>
             <div>
-                <button>Отправить</button>
+                <button className={styles.button}>Отправить</button>
             </div>
         </div>
     );

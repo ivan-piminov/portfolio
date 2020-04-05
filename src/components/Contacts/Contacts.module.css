@@ -1,40 +1,35 @@
-@media (min-width: 768px) {
-    .contacts {
-        height: 100vh;
-        background-color: #ff5153;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .form {
-        width: 80%;
-        border: 1px solid;
-        height: 450px;
-    }
-
-    .forTextarea {
-        width: 600px;
-        height: 300px;
-    }
-
-    .forInputs {
-        margin: 15px;
-    }
+.contacts {
+    min-height: 100vh;
+    background-color: #ff5153;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
-@media (min-width: 360px) and (max-width: 767px){
-    .contacts {
-        height: 60vh;
-        background-color: #ff5153;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
+.form {
+    width: 80%;
+    border: 1px solid;
+    height: 500px;
+}
+
+.forTextarea {
+    width: 600px;
+    height: 400px;
+}
+
+.forInputs {
+    margin: 15px;
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+}
+
+@media screen and (max-width: 767px) {
 
     .form {
-        width: 80%;
-        border: 1px solid;
         height: 450px;
     }
 
@@ -43,7 +38,4 @@
         height: 300px;
     }
 
-    .forInputs {
-        margin: 15px;
-    }
 }

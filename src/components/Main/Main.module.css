@@ -1,6 +1,5 @@
-@media (min-width: 768px) {
-  .main {
-    height: 100vh;
+.main {
+    min-height: 100vh;
     background-color: #ffb3e6;
     display: flex;
     justify-content: center;
@@ -10,10 +9,9 @@
     width: 80%;
     border: 1px solid;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /*margin-top: 8%;*/
-    /*margin-bottom: 8%;*/
   }
 
   .greeting {
@@ -26,36 +24,10 @@
     width: 300px;
     background-color: green;
   }
-}
 
-@media (min-width: 360px) and (max-width: 767px) {
-
-  .main {
-    height: 100vh;
-    background-color: #ffb3e6;
-    display: flex;
-    justify-content: center;
-  }
-
+@media screen and (max-width: 767px) {
   .container {
-    width: 80%;
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
-
-  .greeting {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .photo {
-    height: 400px;
-    width: 80%;
-    background-color: green;
-  }
-
-
 }
