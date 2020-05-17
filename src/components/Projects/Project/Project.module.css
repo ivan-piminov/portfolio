@@ -3,20 +3,50 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
-    border: 1px solid;
-    width: 450px;
-    height: 800px;
+    width: 400px;
+    height: max-content;
+    background-color: #1f1f20;
+    position: relative;
 }
 
 .forButtonArea {
-    height: 500px;
-    background-color: green;
+    width: 400px;
+    padding-top: 50px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.forButtonArea button {
+    margin-top: 60px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+
+}
+.forButtonArea:before {
+    content: "";
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    height: 250px;
+    background-color: black;
+    opacity: 0.5;
+
+
 }
 
-.forButtonArea button {
-    margin-top: 200px;
-    width: 200px;
-    height: 50px;
+.titleOfSkill {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+.description {
+    margin-top: 10px;
+
 }
 
 
@@ -26,9 +56,12 @@
     }
 
     .forButtonArea {
-        height: 400px;
+        width: 100%;
     }
-  .forButtonArea button {
-    margin-top: 150PX;
-  }
+
+}
+@media screen and (max-width: 1030px){
+    .project {
+        margin-top: 20px;
+    }
 }

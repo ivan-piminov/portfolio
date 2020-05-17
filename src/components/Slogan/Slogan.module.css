@@ -1,0 +1,21 @@
+.slogan {
+    height: max-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    margin-top: 20px;
+}
+.button{
+margin-top: -50px;
+}
+

@@ -1,22 +1,25 @@
 import React from 'react';
 import styles from './Skills.module.css'
 import Skill from "./Skill/Skill";
+import Headline from "../Headline/Headline";
 
-function Skills() {
+function Skills(props) {
+
+    let skillsItems = props.skills.map((s) => {
+        return <Skill title={s.title} description={s.description} picture={s.picture}/>
+    });
+
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
-
-                <h3> Мои скиллы</h3>
-
+                <Headline title="Мои скиллы"/>
                 <div className={styles.allSkills}>
-                    <Skill/>
-                    <Skill/>
-                    <Skill/>
+                    {skillsItems}
                 </div>
             </div>
         </div>
     )
 }
+
 
 export default Skills;

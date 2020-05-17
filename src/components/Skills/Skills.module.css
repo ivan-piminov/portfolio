@@ -1,23 +1,24 @@
 .skills {
-    min-height: 100vh;
-    background-color: #9bff95;
+    min-height: max-content;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .container {
-    border: 1px solid;
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: normal;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .allSkills {
     display: flex;
     justify-content: space-between;
-    border: 1px solid;
+    margin-top: 25px;
 }
 
 @media screen and (max-width: 767px) {

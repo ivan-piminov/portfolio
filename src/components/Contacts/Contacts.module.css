@@ -1,30 +1,48 @@
 .contacts {
-    min-height: 100vh;
-    background-color: #ff5153;
+    min-height: max-content;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .form {
     width: 80%;
-    border: 1px solid;
     height: 500px;
-}
-
-.forTextarea {
-    width: 600px;
-    height: 400px;
+    margin-bottom: -180px;
+    margin-top: 40px;
 }
 
 .forInputs {
-    margin: 15px;
+    background: #252527 !important;
+    border: 1px solid #4a4a4a;
+    font-size: 12px;
+    outline: none;
+    width: 450px;
+    height: 30px;
+    padding: 0 15px;
+    color: white;
+    margin-bottom: 15px;
 }
 
-.button {
-    width: 150px;
-    height: 30px;
+
+.forTextarea {
+    background: #252527 !important;
+    border: 1px solid #4a4a4a;
+    font-size: 12px;
+    outline: none;
+    width: 450px;
+    padding: 15px;
+    color: white;
+    height: 200px;
 }
 
 @media screen and (max-width: 767px) {
@@ -33,9 +51,9 @@
         height: 450px;
     }
 
-    .forTextarea {
+    .forTextarea, .forInputs {
         width: 80%;
-        height: 300px;
+
     }
 
 }

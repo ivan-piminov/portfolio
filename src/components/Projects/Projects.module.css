@@ -1,31 +1,33 @@
 .projects {
-    min-height: 100vh;
-    background-color: #ffc3f5;
+    min-height: max-content;
+    background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .allProjects {
-    border: 1px solid;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1030px) {
 
     .allProjects {
-        border: 1px solid;
-        display: flex;
-        flex-direction: column;
+      flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 }
