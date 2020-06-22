@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Skills.module.css'
 import Skill from "./Skill/Skill";
 import Headline from "../Headline/Headline";
+import Fade from 'react-reveal/Fade';
 
 function Skills(props) {
 
@@ -10,13 +11,15 @@ function Skills(props) {
     });
 
     return (
-        <div className={styles.skills}>
+        <div className={styles.skills} id='skills'>
+            <Fade bottom>
             <div className={styles.container}>
                 <Headline title="Мои скиллы"/>
                 <div className={styles.allSkills}>
                     {skillsItems}
                 </div>
             </div>
+                </Fade>
         </div>
     )
 }

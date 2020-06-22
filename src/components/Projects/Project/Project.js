@@ -1,12 +1,11 @@
 import React from 'react';
 import styles from './Project.module.css'
-import Button from "../../Buttons/Button";
 
 function Project(props) {
     return (
         <div  className={styles.project} >
             <div style={props.style} className={styles.forButtonArea}>
-                <button>смореть</button>
+                <button>смотреть</button>
             </div>
             <div className={styles.titleOfSkill}>
                 {props.title}

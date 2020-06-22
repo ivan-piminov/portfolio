@@ -31,9 +31,53 @@
     left: 0;
     height: 250px;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.1;
+    transition: 0.7s;
+}
+.forButtonArea:hover:before{
+    opacity: 0.6;
+}
 
+.forButtonArea button {
+    padding: 8px 30px;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    max-width: 120px;
+    max-height: 40px;
+    outline: none;
+    opacity: 0.8;
+    /*text-transform: uppercase;*/
+    /*outline: none;*/
+    /*text-transform: uppercase;*/
+    /*position: relative;*/
+    /*z-index: 0;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
 
+/*.forButtonArea button:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 40%;*/
+/*    height: 7px;*/
+/*    background-color: #251170;*/
+/*    bottom: 0;*/
+/*    z-index: -1;*/
+/*    transition: 0.5s;*/
+/*}*/
+/*.forButtonArea button:hover:after{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border: 1px solid white;*/
+/*}*/
+.forButtonArea:hover button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #251170;
+    border: 1px solid white;
+    transition: 0.8s;
 }
 
 .titleOfSkill {
@@ -46,15 +90,12 @@
 }
 .description {
     margin-top: 10px;
-
 }
-
 
 @media screen and (max-width: 767px) {
     .project {
         width: 100%;
     }
-
     .forButtonArea {
         width: 100%;
     }

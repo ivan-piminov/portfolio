@@ -1,10 +1,11 @@
 .projects {
     min-height: max-content;
-    background-color: black;
+    background-color: #1f1f20;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .container {
@@ -19,7 +20,7 @@
 .allProjects {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 

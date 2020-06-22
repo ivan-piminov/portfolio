@@ -10,7 +10,9 @@ body {
   /*font-stretch: normal;*/
   /*font-size: 14px;*/
   /*line-height: 1.8;*/
-
+  background-color: #1f1f20;
+  margin: 0;
+  padding: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;

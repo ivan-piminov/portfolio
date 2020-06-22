@@ -1,9 +1,16 @@
 import React from 'react';
 import styles from './Main.module.css'
+import background from "../../assets/images/Фон2.jpg";
+
+
+const back = {
+    backgroundImage: 'url(' + background + ')',
+
+};
 
 function Main() {
     return (
-        <div className={styles.main}>
+        <div className={styles.main} style={back} id='main'>
             <div className={styles.container}>
                 <div className={styles.greeting}>
                     <span>Привет!</span>
