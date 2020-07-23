@@ -4,6 +4,8 @@ import INST from '../../assets/images/Instagram2.svg'
 import telegram from '../../assets/images/telegram2.svg'
 import WHT from '../../assets/images/WHT2.svg'
 import VK from '../../assets/images/VK2.svg'
+import LI from '../../assets/images/linkedin.svg'
+
 import Fade from 'react-reveal/Fade';
 
 
@@ -38,9 +40,12 @@ function Footer() {
                             <img className={styles.logo} alt='' src={WHT}/>
                         </a>
                     </div>
-
+                    <div className={styles.contact}>
+                        <a href="https://www.linkedin.com/in/ivan-piminov/">
+                            <img className={styles.logo} alt='' src={LI}/>
+                        </a>
+                    </div>
                 </div>
-
                 <div>
                     <span> 2020 г. Все права защищены.</span>
 
