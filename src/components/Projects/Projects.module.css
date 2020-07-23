@@ -11,6 +11,7 @@
 .container {
     width: 80%;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 40px;
@@ -18,16 +19,18 @@
 }
 
 .allProjects {
+    margin-right: 40px;
     margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1272px) {
 
     .allProjects {
-      flex-direction: column;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

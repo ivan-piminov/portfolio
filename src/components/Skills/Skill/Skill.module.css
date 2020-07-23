@@ -1,6 +1,7 @@
 .skill {
     display: flex;
     flex-direction: column;
+    width: 80%;
     /*justify-content: flex-start;*/
     align-items: center;
     /*height: 500px;*/
@@ -10,12 +11,15 @@
 .photo {
     width: 80px;
     height: 100px;
-    background-color: #251170;
+    background-color: #330099;
     border-radius: 10px;
     border: 2px solid black ;
 }
 .description {
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .NameOfSkill {
     font-size: 18px;
@@ -26,7 +30,7 @@
 }
 
 .descriptionOfSkill {
-    padding-top:15px;
+    padding:15px 10px 0 10px;
 }
 
 @media screen and (max-width: 767px) {

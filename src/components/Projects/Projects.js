@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 function Projects(props) {
 
     let projectsItem = props.projects.map((p) => {
-        return <Project title={p.title} description={p.description} style={p.style}/>
+        return <Project key={p} title={p.title} description={p.description} style={p.style} source={p.source} deploy ={p.deploy}/>
     });
     return (
         <div className={styles.projects} id='projects'>

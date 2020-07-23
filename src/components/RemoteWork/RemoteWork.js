@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './Slogan.module.css'
+import styles from './RemoteWork.module.css'
 import Headline from "../Headline/Headline";
 import Fade from 'react-reveal/Fade';
 
-function Slogan() {
+function RemoteWork() {
     return (
         <div className={styles.slogan}>
             <Fade bottom>
@@ -12,7 +12,9 @@ function Slogan() {
                     <Headline title="Рассматриваю варианты удаленной работы"/>
                     </div>
                     <div className={styles.sloganButton}>
-                        <button type="submit">Нанять меня</button>
+                        <form action={'https://www.linkedin.com/in/ivan-piminov/'}>
+                            <button type="submit">Нанять меня</button>
+                        </form>
                     </div>
                 </div>
             </Fade>
@@ -20,4 +22,4 @@ function Slogan() {
     );
 }
 
-export default Slogan;
+export default RemoteWork;

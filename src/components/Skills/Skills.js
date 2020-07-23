@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 function Skills(props) {
 
     let skillsItems = props.skills.map((s) => {
-        return <Skill title={s.title} description={s.description} picture={s.picture}/>
+        return <Skill  key ={s} title={s.title} description={s.description} picture={s.picture}/>
     });
 
     return (

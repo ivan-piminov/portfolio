@@ -5,13 +5,23 @@ function Project(props) {
     return (
         <div  className={styles.project} >
             <div style={props.style} className={styles.forButtonArea}>
-                <button>смотреть</button>
+                <div>
+                    <form action={props.deploy}>
+                    <button >смотреть</button>
+                    </form>
+                </div>
+             <div>
+                 <form action={props.source}>
+                     <button>исходный код</button>
+                 </form>
+             </div>
+
             </div>
             <div className={styles.titleOfSkill}>
-                {props.title}
+                <b>{props.title} </b>
             </div>
             <div className={styles.description}>
-                {props.description}
+               <span>{props.description}</span>
             </div>
         </div>
     );

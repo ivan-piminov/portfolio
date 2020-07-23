@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
-import Slogan from "./components/Slogan/Slogan";
+import RemoteWork from "./components/RemoteWork/RemoteWork";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 import HTML from "./assets/images/HTML.svg";
@@ -12,6 +12,8 @@ import JS from "./assets/images/JS.svg";
 import RCT from "./assets/images/React.svg";
 import CN from "./assets/images/scale_1200.webp";
 import Another from "./assets/images/Calc7.jpg";
+import TDL from "./assets/images/ToDoList";
+import TS from "./assets/images/ts.svg"
 import Particles from 'react-particles-js';
 
 const particleOpt={
@@ -129,24 +131,30 @@ const particleOpt={
 
 const CNStyle = {
     backgroundImage: 'url(' + CN + ')',
+
 };
 const ANStyle = {
     backgroundImage: 'url(' + Another + ')',
 };
+const ToDoList = {
+    backgroundImage: 'url(' + TDL + ')',
+};
+
 
 
 class App extends React.Component {
 
-
      skillsItems= [
-        {title: "HTML/CSS", description: " Скоро здесь будет описание", picture: HTML},
-        {title: "JS", description: "Скоро здесь будет описание", picture: JS},
-        {title: "React/Redux",  description: "Скоро здесь будет описание",picture: RCT}
+        {title: "HTML/CSS", description: "HTML5, CSS3. Работа с module CSS в React, flexbox", picture: HTML},
+        {title: "JS", description: "ES6, ООП, promises,async/await, REST API", picture: JS},
+        {title: "React/Redux",  description: "axios, redux-form, redux-thunk,HOOK,HOC, store,action creator,dispatch, virtual DOM ",picture: RCT},
+        {title: "TypeScript",  description: "Строгая типизация на этапе разаработки ускоряет рабочий процесс",picture: TS}
      ];
 
     projectItems= [
-        {title: "Социальная сеть", description: " Скоро здесь будет описание ", style: CNStyle},
-        {title: "Счетчик", description: "Скоро здесь будет описание", style: ANStyle },
+        {title: "Социальная сеть", description: "Основной SPA проект, который в дальнейшем будет развиваться. На сегодняшний день реализован следующий функционал: LogIn, LogOut, загрузка списка всех пользователей, возможность просмотра профиля пользователей, Follow, Unfollow, Pagination, изменение фото и данных (имя, контакты и пр.) своего профиля. В разаработке используется связка React + Redux.", style: CNStyle,source:"https://github.com/ivan-piminov/SocialNetwork.git", deploy:"https://ivan-piminov.github.io/SocialNetwork" },
+        {title: "Счетчик", description: "Счетчик с настройкой максимального и минимального значений, а также проверкой их корректного ввода.", style: ANStyle, source:"https://github.com/ivan-piminov/Counter.git", deploy:"https://ivan-piminov.github.io/Counter"  },
+        {title: "ToDoList", description: "ToDoList c реализацией всех CRUD-операций, выполнен с использованием TypeScript.", style: ToDoList,source:"https://github.com/ivan-piminov/TodoList.git", deploy:"https://ivan-piminov.github.io/TodoList" },
     ];
 
 
@@ -159,7 +167,7 @@ class App extends React.Component {
                     <Main />
                     <Skills skills={this.skillsItems} />
                     <Projects projects={this.projectItems}/>
-                    <Slogan/>
+                    <RemoteWork/>
                     <Contacts/>
                     <Footer/>
             </div>

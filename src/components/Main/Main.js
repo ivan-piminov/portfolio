@@ -5,7 +5,6 @@ import background from "../../assets/images/Фон2.jpg";
 
 const back = {
     backgroundImage: 'url(' + background + ')',
-
 };
 
 function Main() {

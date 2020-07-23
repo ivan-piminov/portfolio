@@ -1,7 +1,10 @@
 .app {
   text-align: center;
   color: white;
+  overflow-x: hidden;
+
 }
+
 .particle{
   position: fixed;
   top: 0;

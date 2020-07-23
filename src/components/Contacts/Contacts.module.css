@@ -1,3 +1,40 @@
+.preloader{
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 3;
+}
+.message{
+    margin-bottom: -45px;
+    margin-top:20px;
+}
+.successSend {
+    padding-top: 15px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 14px;
+    background-color: #1f1f20;
+    z-index: 3;
+    border: 1px solid white;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.successSend button {
+    user-focus: none;
+    width: 100px;
+    height: 30px;
+    background-color:#0013D4;
+    margin-top: 25px;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    text-transform: uppercase;
+}
+
 .contacts {
     min-height: max-content;
     background-color: #1f1f20;
@@ -74,7 +111,7 @@
     position: absolute;
     width: 40%;
     height: 7px;
-    background-color: #251170;
+    background-color: #330099;
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
@@ -90,9 +127,6 @@
     .form {
         height: 450px;
     }
-    /*.contactsButton button{*/
-    /*    !*margin-top: 70px;*!*/
-    /*}*/
     .forTextarea, .forInputs {
         width: 80%;
     }
@@ -103,3 +137,12 @@
     }
 
 }
+
+@media screen and (max-width: 450px) {
+    .message{
+        margin-bottom: -25px;
+        margin-top: 5px;
+    }
+}
+
+
