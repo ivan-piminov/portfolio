@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.43154436.chunk.css",
-    "main.js": "/portfolio/static/js/main.2044cad1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2044cad1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.2547f001.chunk.css",
+    "main.js": "/portfolio/static/js/main.b942220c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b942220c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.80b162ac.chunk.js": "/portfolio/static/js/2.80b162ac.chunk.js",
-    "static/js/2.80b162ac.chunk.js.map": "/portfolio/static/js/2.80b162ac.chunk.js.map",
+    "static/js/2.47ee2f78.chunk.js": "/portfolio/static/js/2.47ee2f78.chunk.js",
+    "static/js/2.47ee2f78.chunk.js.map": "/portfolio/static/js/2.47ee2f78.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.18ca971f2a78a648f903294b1bfd4e8a.js": "/portfolio/precache-manifest.18ca971f2a78a648f903294b1bfd4e8a.js",
+    "precache-manifest.2b9f81139c36b1bc42455927ea8fbbc2.js": "/portfolio/precache-manifest.2b9f81139c36b1bc42455927ea8fbbc2.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.43154436.chunk.css.map": "/portfolio/static/css/main.43154436.chunk.css.map",
-    "static/js/2.80b162ac.chunk.js.LICENSE.txt": "/portfolio/static/js/2.80b162ac.chunk.js.LICENSE.txt",
+    "static/css/main.2547f001.chunk.css.map": "/portfolio/static/css/main.2547f001.chunk.css.map",
+    "static/js/2.47ee2f78.chunk.js.LICENSE.txt": "/portfolio/static/js/2.47ee2f78.chunk.js.LICENSE.txt",
     "static/media/35.svg": "/portfolio/static/media/35.1a0b205a.svg",
     "static/media/Calc7.jpg": "/portfolio/static/media/Calc7.f81a6db3.jpg",
     "static/media/HTML.svg": "/portfolio/static/media/HTML.117e11f5.svg",
@@ -21,6 +21,7 @@
     "static/media/ToDoList": "/portfolio/static/media/ToDoList.4f5724d2.bin",
     "static/media/VK2.svg": "/portfolio/static/media/VK2.d4b26e2e.svg",
     "static/media/WHT2.svg": "/portfolio/static/media/WHT2.db267fdf.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9e36c8fd.svg",
     "static/media/scale_1200.webp": "/portfolio/static/media/scale_1200.acca261e.webp",
     "static/media/telegram2.svg": "/portfolio/static/media/telegram2.b91cc43e.svg",
     "static/media/ts.svg": "/portfolio/static/media/ts.4315fdbd.svg",
@@ -28,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
-    "static/js/2.80b162ac.chunk.js",
-    "static/css/main.43154436.chunk.css",
-    "static/js/main.2044cad1.chunk.js"
+    "static/js/2.47ee2f78.chunk.js",
+    "static/css/main.2547f001.chunk.css",
+    "static/js/main.b942220c.chunk.js"
   ]
 }
