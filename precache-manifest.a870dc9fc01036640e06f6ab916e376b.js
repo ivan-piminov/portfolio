@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7061eaeb2fa6d82b64fb7c4dc1bec2f",
+    "revision": "082c7ea3a30bdf6a68748bdcd7329ddd",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e15e6c00935de564e18d",
-    "url": "/portfolio/static/css/main.15923c18.chunk.css"
+    "revision": "9bbb5714053e0b795bdd",
+    "url": "/portfolio/static/css/main.957cf22a.chunk.css"
   },
   {
-    "revision": "54ddac1018b2edc72ece",
-    "url": "/portfolio/static/js/2.71891dfa.chunk.js"
+    "revision": "b1a06acc8305b1a1a6b9",
+    "url": "/portfolio/static/js/2.80b162ac.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.71891dfa.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.80b162ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e15e6c00935de564e18d",
-    "url": "/portfolio/static/js/main.51b5e3c8.chunk.js"
+    "revision": "9bbb5714053e0b795bdd",
+    "url": "/portfolio/static/js/main.06f115cc.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
     "url": "/portfolio/static/js/runtime-main.075c0788.js"
+  },
+  {
+    "revision": "1a0b205a2b502a70a751a40d53b16702",
+    "url": "/portfolio/static/media/35.1a0b205a.svg"
   },
   {
     "revision": "f81a6db38d378c596601e01742c796ea",
@@ -44,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/React.7ae9c5ee.svg"
   },
   {
+    "revision": "4f5724d2378211ca7649ffcecdac2006",
+    "url": "/portfolio/static/media/ToDoList.4f5724d2.bin"
+  },
+  {
     "revision": "d4b26e2e5961b69171b7ef3a03b802ba",
     "url": "/portfolio/static/media/VK2.d4b26e2e.svg"
   },
@@ -58,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b91cc43ec2a72c3e999aff767e2e0c76",
     "url": "/portfolio/static/media/telegram2.b91cc43e.svg"
+  },
+  {
+    "revision": "4315fdbd80b6be80f74a1aa310833956",
+    "url": "/portfolio/static/media/ts.4315fdbd.svg"
   },
   {
     "revision": "a3887df9bc56fb54231da591350ca5af",
