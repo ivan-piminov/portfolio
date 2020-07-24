@@ -12,7 +12,7 @@ function RemoteWork() {
                     <Headline title="Рассматриваю варианты удаленной работы"/>
                     </div>
                     <div className={styles.sloganButton}>
-                        <form action={'https://www.linkedin.com/in/ivan-piminov/'}>
+                        <form action={'https://www.linkedin.cn/in/ivanpiminov/'}>
                             <button type="submit">Нанять меня</button>
                         </form>
                     </div>

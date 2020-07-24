@@ -152,7 +152,7 @@ class App extends React.Component {
      ];
 
     projectItems= [
-        {title: "Социальная сеть", description: "Основной SPA проект, который в дальнейшем будет развиваться. На сегодняшний день реализован следующий функционал: LogIn, LogOut, загрузка списка всех пользователей, возможность просмотра профиля пользователей, Follow, Unfollow, Pagination, изменение фото и данных (имя, контакты и пр.) своего профиля. В разаработке используется связка React + Redux.", style: CNStyle,source:"https://github.com/ivan-piminov/SocialNetwork.git", deploy:"https://ivan-piminov.github.io/SocialNetwork" },
+        {title: "Социальная сеть", description: "Основной SPA проект, который в дальнейшем будет развиваться. На сегодняшний день реализован следующий функционал: LogIn, LogOut, загрузка списка всех пользователей, возможность просмотра профиля пользователей, Follow, Unfollow, Pagination, изменение фото и данных (имя, контакты и пр.) своего профиля. В разаработке используется связка React + Redux.Данные для тестового аккаунта: Email - free@samuraijs.com, Password: free", style: CNStyle,source:"https://github.com/ivan-piminov/SocialNetwork.git", deploy:"https://ivan-piminov.github.io/SocialNetwork" },
         {title: "Счетчик", description: "Счетчик с настройкой максимального и минимального значений, а также проверкой их корректного ввода.", style: ANStyle, source:"https://github.com/ivan-piminov/Counter.git", deploy:"https://ivan-piminov.github.io/Counter"  },
         {title: "ToDoList", description: "ToDoList c реализацией всех CRUD-операций, выполнен с использованием TypeScript.", style: ToDoList,source:"https://github.com/ivan-piminov/TodoList.git", deploy:"https://ivan-piminov.github.io/TodoList" },
     ];

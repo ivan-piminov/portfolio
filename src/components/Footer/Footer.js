@@ -41,7 +41,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="https://www.linkedin.com/in/ivan-piminov/">
+                        <a href="https://www.linkedin.cn/in/ivanpiminov/">
                             <img className={styles.logo} alt='' src={LI}/>
                         </a>
                     </div>
