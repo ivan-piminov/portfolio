@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.58710c2a.chunk.css",
-    "main.js": "/portfolio/static/js/main.6cf50955.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6cf50955.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b547dcd9.chunk.css",
+    "main.js": "/portfolio/static/js/main.4dc1bd96.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4dc1bd96.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.47ee2f78.chunk.js": "/portfolio/static/js/2.47ee2f78.chunk.js",
-    "static/js/2.47ee2f78.chunk.js.map": "/portfolio/static/js/2.47ee2f78.chunk.js.map",
+    "static/js/2.26ef6be5.chunk.js": "/portfolio/static/js/2.26ef6be5.chunk.js",
+    "static/js/2.26ef6be5.chunk.js.map": "/portfolio/static/js/2.26ef6be5.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f88cd9bd33b9537c1f72a4deaf6d17ff.js": "/portfolio/precache-manifest.f88cd9bd33b9537c1f72a4deaf6d17ff.js",
+    "precache-manifest.9c1e65ee8b1fc7be23eeb50a0da6236a.js": "/portfolio/precache-manifest.9c1e65ee8b1fc7be23eeb50a0da6236a.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.58710c2a.chunk.css.map": "/portfolio/static/css/main.58710c2a.chunk.css.map",
-    "static/js/2.47ee2f78.chunk.js.LICENSE.txt": "/portfolio/static/js/2.47ee2f78.chunk.js.LICENSE.txt",
+    "static/css/main.b547dcd9.chunk.css.map": "/portfolio/static/css/main.b547dcd9.chunk.css.map",
+    "static/js/2.26ef6be5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.26ef6be5.chunk.js.LICENSE.txt",
     "static/media/35.svg": "/portfolio/static/media/35.1a0b205a.svg",
+    "static/media/AVA.jpg": "/portfolio/static/media/AVA.65f6c5cb.jpg",
     "static/media/Calc7.jpg": "/portfolio/static/media/Calc7.f81a6db3.jpg",
     "static/media/HTML.svg": "/portfolio/static/media/HTML.117e11f5.svg",
     "static/media/Instagram2.svg": "/portfolio/static/media/Instagram2.5b23a837.svg",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
-    "static/js/2.47ee2f78.chunk.js",
-    "static/css/main.58710c2a.chunk.css",
-    "static/js/main.6cf50955.chunk.js"
+    "static/js/2.26ef6be5.chunk.js",
+    "static/css/main.b547dcd9.chunk.css",
+    "static/js/main.4dc1bd96.chunk.js"
   ]
 }
