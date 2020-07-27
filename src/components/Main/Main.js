@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css'
 import background from "../../assets/images/Фон2.jpg";
+import ava from '../../assets/images/AVA.jpg'
 
 
 const back = {
@@ -19,6 +20,7 @@ function Main() {
 
                 <div className={styles.photo}>
                     <div className={styles.image}>
+                    <img src={ava} alt="avatar"/>
                     </div>
                 </div>
             </div>

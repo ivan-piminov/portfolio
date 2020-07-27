@@ -38,15 +38,17 @@
     letter-spacing: 5px;
     position: relative;
     z-index: 0;
+    display: inline-block;
 }
 
 .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
-    width: 230px;
+    left: 0;
+    right: 0;
     height: 15px;
     background-color: #330099;
-    bottom: -2px;
+    bottom: 2px;
     z-index: -1;
 }
 
@@ -66,10 +68,9 @@ h1 {
 
 }
 
-.image {
+.image img {
     height: 400px;
     width: 300px;
-    background-color: gray;
 }
 
 .photo .image:before {
@@ -78,11 +79,10 @@ h1 {
     width: 300px;
     height: 412px;
     border: 4px solid #330099;
-    bottom: -10px;
+    bottom: -3px;
     left: 7px;
     z-index: -1;
 }
-
 
 @media screen and (max-width: 768px) {
     .container {
@@ -100,22 +100,14 @@ h1 {
 }
 
 @media screen and (max-width: 570px) {
-    .greeting span:nth-child(2) span:before {
-        width: 230px;
-        background-color: #330099;
-        bottom: -2px;
-        left: -210px;
-        z-index: -1;
-    }
-
-    .image {
-        height: 300px;
+    .image img {
+        height: 326px;
         width: 250px;
     }
 
     .photo .image:before {
-        width: 245px;
-        height: 313px;
+        width: 247px;
+        height: 323px;
     }
 }
 
