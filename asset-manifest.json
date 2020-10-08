@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.22d8615e.chunk.css",
-    "main.js": "/portfolio/static/js/main.4dc1bd96.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4dc1bd96.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7a80476d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7a80476d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.26ef6be5.chunk.js": "/portfolio/static/js/2.26ef6be5.chunk.js",
-    "static/js/2.26ef6be5.chunk.js.map": "/portfolio/static/js/2.26ef6be5.chunk.js.map",
+    "static/js/2.ab872400.chunk.js": "/portfolio/static/js/2.ab872400.chunk.js",
+    "static/js/2.ab872400.chunk.js.map": "/portfolio/static/js/2.ab872400.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d79e2b09838e5ee70dcbb610e26667af.js": "/portfolio/precache-manifest.d79e2b09838e5ee70dcbb610e26667af.js",
+    "precache-manifest.8497f7d5b4632edd3f8929f6c01bd9ca.js": "/portfolio/precache-manifest.8497f7d5b4632edd3f8929f6c01bd9ca.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.22d8615e.chunk.css.map": "/portfolio/static/css/main.22d8615e.chunk.css.map",
-    "static/js/2.26ef6be5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.26ef6be5.chunk.js.LICENSE.txt",
+    "static/js/2.ab872400.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ab872400.chunk.js.LICENSE.txt",
     "static/media/35.svg": "/portfolio/static/media/35.1a0b205a.svg",
     "static/media/AVA.jpg": "/portfolio/static/media/AVA.65f6c5cb.jpg",
     "static/media/Calc7.jpg": "/portfolio/static/media/Calc7.f81a6db3.jpg",
@@ -22,6 +22,7 @@
     "static/media/ToDoList": "/portfolio/static/media/ToDoList.4f5724d2.bin",
     "static/media/VK2.svg": "/portfolio/static/media/VK2.d4b26e2e.svg",
     "static/media/WHT2.svg": "/portfolio/static/media/WHT2.db267fdf.svg",
+    "static/media/kanban.jpg": "/portfolio/static/media/kanban.40d1787a.jpg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9e36c8fd.svg",
     "static/media/scale_1200.webp": "/portfolio/static/media/scale_1200.acca261e.webp",
     "static/media/telegram2.svg": "/portfolio/static/media/telegram2.b91cc43e.svg",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
-    "static/js/2.26ef6be5.chunk.js",
+    "static/js/2.ab872400.chunk.js",
     "static/css/main.22d8615e.chunk.css",
-    "static/js/main.4dc1bd96.chunk.js"
+    "static/js/main.7a80476d.chunk.js"
   ]
 }
