@@ -13,7 +13,9 @@ import RCT from "./assets/images/React.svg";
 import CN from "./assets/images/scale_1200.webp";
 import Another from "./assets/images/Calc7.jpg";
 import TDL from "./assets/images/ToDoList";
-import TS from "./assets/images/ts.svg"
+import TS from "./assets/images/ts.svg";
+import KD from "./assets/images/kanban.jpg"
+import ST from "./assets/images/tw2.webp"
 import Particles from 'react-particles-js';
 
 const particleOpt={
@@ -139,22 +141,30 @@ const ANStyle = {
 const ToDoList = {
     backgroundImage: 'url(' + TDL + ')',
 };
+const Kanban = {
+    backgroundImage: 'url(' + KD + ')',
+};
+const Twitter = {
+    backgroundImage: 'url(' + ST + ')',
+};
 
 
 
 class App extends React.Component {
 
      skillsItems= [
-        {title: "HTML/CSS", description: "HTML5, CSS3. Работа с module CSS в React, flexbox", picture: HTML},
+        {title: "HTML/CSS + Bootstrap ", description: "HTML5, CSS3. Работа с module CSS в React, flexbox", picture: HTML},
         {title: "JS", description: "ES6, ООП, promises,async/await, REST API", picture: JS},
         {title: "React/Redux",  description: "axios, redux-form, redux-thunk,HOOK,HOC, store,action creator,dispatch, virtual DOM ",picture: RCT},
-        {title: "TypeScript",  description: "Строгая типизация на этапе разаработки ускоряет рабочий процесс",picture: TS}
+        {title: "TypeScript",  description: "Строгая типизация на этапе разаработки ускоряет рабочий процесс и позволяет избежать ошибок",picture: TS}
      ];
 
     projectItems= [
         {title: "Социальная сеть", description: "Основной SPA проект, который в дальнейшем будет развиваться. На сегодняшний день реализован следующий функционал: LogIn, LogOut, загрузка списка всех пользователей, возможность просмотра профиля пользователей, Follow, Unfollow, Pagination, изменение фото и данных (имя, контакты и пр.) своего профиля. В разаработке используется связка React + Redux.Данные для тестового аккаунта: Email - free@samuraijs.com, Password: free", style: CNStyle,source:"https://github.com/ivan-piminov/SocialNetwork.git", deploy:"https://ivan-piminov.github.io/SocialNetwork" },
         {title: "Счетчик", description: "Счетчик с настройкой максимального и минимального значений, а также проверкой их корректного ввода.", style: ANStyle, source:"https://github.com/ivan-piminov/Counter.git", deploy:"https://ivan-piminov.github.io/Counter"  },
-        {title: "ToDoList", description: "ToDoList c реализацией всех CRUD-операций, выполнен с использованием TypeScript.", style: ToDoList,source:"https://github.com/ivan-piminov/TodoList.git", deploy:"https://ivan-piminov.github.io/TodoList" },
+        {title: "ToDoList", description: "ToDoList c реализацией всех CRUD-операций, выполнен с использованием TypeScript + React/Redux + Bootstrap", style: ToDoList,source:"https://github.com/ivan-piminov/TodoList.git", deploy:"https://ivan-piminov.github.io/TodoList" },
+        {title: "KanbanDesk", description: "Канбан доска c возможнотью добавления задач, расчета времени, стоимости их выполнения и сохранением в localStorage. Для реализации использваны TypeScript + React/Redux + Bootstrap", style: Kanban,source:"https://github.com/ivan-piminov/KanbanDesk", deploy:"https://ivan-piminov.github.io/KanbanDesk"},
+        {title: "SimpleTwitter", description: "Упрощенный twitter с возможностью добавления, удаления, поиска, изменения статуса.React + Bootstrap", style: Twitter,source:"https://github.com/ivan-piminov/simpleTwitter", deploy:"https://ivan-piminov.github.io/simpleTwitter"},
     ];
 
 

@@ -5,7 +5,7 @@ import ava from '../../assets/images/AVA.jpg'
 
 
 const back = {
-    backgroundImage: 'url(' + background + ')',
+    backgroundImage: 'url(' + background + ')'
 };
 
 function Main() {
